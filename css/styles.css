@@ -175,13 +175,55 @@ header ul a:hover{
     margin: 20px;
 }
 
+#contacto{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 80px 0;
+    background: yellow;
+}
+
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#contacto p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacto form input{
+    width: 38%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#contacto form select{
+    width: 43%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+
 #contacto button{
-    background: 9404c;
-    color: #000000;
+    background: #94940c;
+    color: #fff;
     font-size: 22px;
     padding: 12px 50px;
     border-radius: 6px;
 }
+
+
 
 footer{
     background: #000;
